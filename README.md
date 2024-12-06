@@ -8,7 +8,7 @@
 
 - 📫 How to reach me **priyanhu1265656@gmail.com 📫**
 
-- ⚡ Fun fact **I think I am funny ⚡**
+- ⚡ Fun fact **nothing as much as i know about u⚡**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
