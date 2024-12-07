@@ -70,10 +70,9 @@
 
 ### 📊 GitHub Stats:
 <p align="center">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=dark" alt="PriYanahsu" />
-  <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&locale=en&theme=dark" alt="PriYanahsu" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=radical" alt="PriYanahsu" />
+  <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&locale=en&theme=radical" alt="PriYanahsu" />
 </p>
-
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=PriYanahsu&theme=radical" alt="GitHub Streak" />
