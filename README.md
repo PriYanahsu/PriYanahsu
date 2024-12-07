@@ -76,14 +76,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
----
-
-### 🌟 Featured Projects:
-- **[Ecoder](https://github.com/PriYanahsu/Ecoder):** A platform to enhance your coding skills.  
-- **[Password Generator](https://github.com/PriYanahsu/Password-Generator):** A secure password creation tool.  
-- **[Portfolio Website](https://github.com/PriYanahsu/Portfolio):** My personal website showcasing my work.
-
----
 
 ### 📝 Quote of the Day:
 > "Code is like humor. When you have to explain it, it’s bad." – Cory House
