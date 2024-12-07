@@ -72,7 +72,7 @@
 <p align="center"><p>
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact" alt="PriYanahsu" /></p>
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&locale=en" alt="PriYanahsu" /></p>
 </p>
 
 <p align="center">
