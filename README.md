@@ -13,15 +13,15 @@
 
 ### 🌐 Connect with Me:
 
-<p align="left">
-<a href="https://linkedin.com/in/priyanshu-kumar" target="_blank">
-  <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="30" width="40"/>
-</a>
-<a href="https://fb.com/priyanshu.singh" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/facebook/facebook-original.svg" alt="Facebook" height="30" width="40"/>
-</a>
-<a href="https://instagram.com/rajput.priyanshu___" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajput.priyanshu___" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&locale=en&theme=radical" alt="Priyanshu's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
 </p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PriYanahsu&theme=radical" alt="GitHub Streak" />
+</p>
+
 
 ---
 
