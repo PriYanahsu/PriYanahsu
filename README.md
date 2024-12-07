@@ -13,9 +13,10 @@
 
 <h3 align="center" style="font-family: Arial, sans-serif; color: #333;">Connect with me:</h3>
 <p align="center">
-  <a href="https://linkedin.com/in/priyanshu-kumar" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="priyanshu kumar" height="30" width="40" />
-  </a>
+  <div align="center" style="width: 400px; border: 2px solid #333; border-radius: 10px; padding: 10px;">
+  <h3 style="margin-bottom: 10px; font-family: Arial, sans-serif; color: #333;">Priyanshu Kumar's GitHub Stats</h3>
+  <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical&locale=en&card_width=400" alt="Priyanshu's GitHub Stats" />
+</div>
   <a href="https://fb.com/priyanshu.singh" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="priyanshu singh" height="30" width="40" />
   </a>
