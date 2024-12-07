@@ -69,11 +69,11 @@
 ---
 
 ### 📊 GitHub Stats:
-<p align="center"><p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact" alt="PriYanahsu" /></p>
-
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&locale=en" alt="PriYanahsu" /></p>
+<p align="center">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=dark" alt="PriYanahsu" />
+  <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&locale=en&theme=dark" alt="PriYanahsu" />
 </p>
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=PriYanahsu&theme=radical" alt="GitHub Streak" />
