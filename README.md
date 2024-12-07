@@ -20,8 +20,8 @@
 <a href="https://fb.com/priyanshu.singh" target="blank">
   <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/facebook/facebook-original.svg" alt="Facebook" height="30" width="40"/>
 </a>
-<a href="https://instagram.com/rajput.priyanshu___" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/instagram/instagram-original.svg" alt="Instagram" height="30" width="40"/>
+<a href="https://instagram.com/rajput.priyanshu___" target="_blank">
+  <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg" alt="Instagram" height="30" width="40" style="color: #E4405F;"/>
 </a>
 </p>
 
