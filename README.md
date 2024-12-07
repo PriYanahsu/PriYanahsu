@@ -70,7 +70,7 @@
 
 ### 📊 GitHub Stats:
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&locale=en&theme=radical" alt="Priyanshu's GitHub Stats" />
+ <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical&locale=en&card_width=400" alt="Priyanshu's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
