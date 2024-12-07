@@ -11,18 +11,12 @@
 
 ---
 
-### 🌐 Connect with Me:
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&locale=en&theme=radical" alt="Priyanshu's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
+h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/priyanshu-kumar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="priyanshu kumar" height="30" width="40" /></a>
+<a href="https://fb.com/priyanshu.singh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="priyanshu singh" height="30" width="40" /></a>
+<a href="https://instagram.com/rajput.priyanshu___" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajput.priyanshu___" height="30" width="40" /></a>
 </p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PriYanahsu&theme=radical" alt="GitHub Streak" />
-</p>
-
-
 ---
 
 ### 🚀 Languages and Tools:
