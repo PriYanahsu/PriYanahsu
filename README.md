@@ -13,8 +13,8 @@
 
 <h3 align="center" style="font-family: Arial, sans-serif; color: #333;">Connect with me:</h3>
 <p align="center">
-  <a href="https://linkedin.com/in/priyanshu-kumar" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="priyanshu kumar" height="30" width="40" />
+  <a href="https://www.linkedin.com/in/priyanshukumar1265/" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="priyanshukumar1265" height="30" width="40" />
   </a>
   <a href="https://fb.com/priyanshu.singh" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="priyanshu singh" height="30" width="40" />
@@ -22,7 +22,14 @@
   <a href="https://instagram.com/rajput.priyanshu___" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajput.priyanshu___" height="30" width="40" />
   </a>
+  <a href="https://www.hackerrank.com/priyanshukuma120" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="priyanshukuma120" height="30" width="40" />
+  </a>
+  <a href="https://leetcode.com/u/eROhMGLYrx/" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="u/eROhMGLYrx" height="30" width="40" />
+  </a>
 </p>
+
 
 ---
 
