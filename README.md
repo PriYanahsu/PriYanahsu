@@ -4,7 +4,7 @@
 <h1 align="center">Hey 👋, I'm Priyanshu Kumar</h1>
 <h3 align="center">🚀 Passionate Full Stack Developer | Java Backend Enthusiast | Lifelong Learner from India 🇮🇳</h3>
 
-<p align="left">
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F76E&center=true&vCenter=true&multiline=true&width=700&height=70&lines=Java+%7C+Spring+Boot+%7C+React+%7C+Microservices+%7C+AWS;Problem+Solver+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB+%7C+Tech+Writer+%7C+Clean+Code+Advocate" alt="Typing SVG" />
 </p>
 
