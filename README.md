@@ -19,25 +19,23 @@
 ---
 
 ### 🤝 Connect with Me:
-
 <p align="center" style="margin-top: 20px;">
   <a href="https://www.linkedin.com/in/priyanshukumar1265/" target="_blank" title="LinkedIn" style="margin: 0 15px;">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" height="40" alt="LinkedIn" style="filter: invert(0.5);" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" alt="LinkedIn" />
   </a>
   <a href="https://fb.com/priyanshu.singh" target="_blank" title="Facebook" style="margin: 0 15px;">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" height="40" alt="Facebook" style="filter: invert(0.5);" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" height="40" alt="Facebook" />
   </a>
   <a href="https://instagram.com/rajput.priyanshu___" target="_blank" title="Instagram" style="margin: 0 15px;">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" height="40" alt="Instagram" style="filter: invert(0.5);" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" height="40" alt="Instagram" />
   </a>
   <a href="https://www.hackerrank.com/priyanshukuma120" target="_blank" title="HackerRank" style="margin: 0 15px;">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hackerrank.svg" height="40" alt="HackerRank" style="filter: invert(0.5);" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" height="40" alt="HackerRank" />
   </a>
   <a href="https://leetcode.com/u/PriyAnshu1265/" target="_blank" title="LeetCode" style="margin: 0 15px;">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/leetcode.svg" height="40" alt="LeetCode" style="filter: invert(0.5);" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" height="40" alt="LeetCode" />
   </a>
 </p>
-
 
 ---
 
