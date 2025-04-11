@@ -19,7 +19,7 @@
 ---
 
 ### 🤝 Connect with Me:
-<p align="left" style="margin-top: 20px;">
+<p align="left" style="margin-top: 20px, margin-left: 20px;">
   <a href="https://www.linkedin.com/in/priyanshukumar1265/" target="_blank" title="LinkedIn" style="margin: 0 15px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" alt="LinkedIn" />
   </a>
