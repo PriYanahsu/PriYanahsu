@@ -19,24 +19,25 @@
 ---
 
 ### 🤝 Connect with Me:
-### 🤝 Connect with Me:
-<p align="center">
-  <a href="https://www.linkedin.com/in/priyanshukumar1265/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" alt="LinkedIn" />
+
+<p align="center" style="margin-top: 20px;">
+  <a href="https://www.linkedin.com/in/priyanshukumar1265/" target="_blank" title="LinkedIn" style="margin: 0 15px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" height="40" alt="LinkedIn" style="filter: invert(0.5);" />
   </a>
-  <a href="https://fb.com/priyanshu.singh" target="_blank">
+  <a href="https://fb.com/priyanshu.singh" target="_blank" title="Facebook" style="margin: 0 15px;">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" height="40" alt="Facebook" style="filter: invert(0.5);" />
   </a>
-  <a href="https://instagram.com/rajput.priyanshu___" target="_blank">
+  <a href="https://instagram.com/rajput.priyanshu___" target="_blank" title="Instagram" style="margin: 0 15px;">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" height="40" alt="Instagram" style="filter: invert(0.5);" />
   </a>
-  <a href="https://www.hackerrank.com/priyanshukuma120" target="_blank">
+  <a href="https://www.hackerrank.com/priyanshukuma120" target="_blank" title="HackerRank" style="margin: 0 15px;">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hackerrank.svg" height="40" alt="HackerRank" style="filter: invert(0.5);" />
   </a>
-  <a href="https://leetcode.com/u/PriyAnshu1265/" target="_blank">
+  <a href="https://leetcode.com/u/PriyAnshu1265/" target="_blank" title="LeetCode" style="margin: 0 15px;">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/leetcode.svg" height="40" alt="LeetCode" style="filter: invert(0.5);" />
   </a>
 </p>
+
 
 ---
 
