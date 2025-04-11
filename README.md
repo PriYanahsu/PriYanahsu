@@ -18,11 +18,24 @@
 ---
 
 ### 🤝 Connect with Me:
-<p align="center"> <a href="https://www.linkedin.com/in/priyanshukumar1265/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40" /> 
-</a> <a href="https://fb.com/priyanshu.singh" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" width="40" height="40" /> </a> 
-<a href="https://instagram.com/rajput.priyanshu___" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" width="40" height="40" /> 
-</a> <a href="https://www.hackerrank.com/priyanshukuma120" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hackerrank.svg" alt="HackerRank" width="40" height="40" /> 
-</a> <a href="https://leetcode.com/u/eROhMGLYrx/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg" alt="LeetCode" width="40" height="40" /> </a> </p>
+### 🤝 Connect with Me:
+<p align="center">
+  <a href="https://www.linkedin.com/in/priyanshukumar1265/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" alt="LinkedIn" />
+  </a>
+  <a href="https://fb.com/priyanshu.singh" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" height="40" alt="Facebook" />
+  </a>
+  <a href="https://instagram.com/rajput.priyanshu___" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" height="40" alt="Instagram" />
+  </a>
+  <a href="https://www.hackerrank.com/priyanshukuma120" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hackerrank.svg" height="40" alt="HackerRank" />
+  </a>
+  <a href="https://leetcode.com/u/PriyAnshu1265/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/leetcode.svg" height="40" alt="LeetCode" />
+  </a>
+</p>
 
 ---
 
