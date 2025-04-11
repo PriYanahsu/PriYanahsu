@@ -40,9 +40,29 @@
 ---
 
 ### 🧠 Languages & Tools I Use:
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,java,spring,py,cpp,mysql,mongodb,flask,django,jupyter,git,github" />
+  <!-- Frontend -->
+  <img src="https://skillicons.dev/icons?i=html,css,js,react" height="40" alt="Frontend" /><br>
+  <b>Frontend:</b> HTML · CSS · JavaScript · React <br><br>
+
+  <!-- Backend & Frameworks -->
+  <img src="https://skillicons.dev/icons?i=spring,flask,django" height="40" alt="Backend" /><br>
+  <b>Backend & Frameworks:</b> Spring Boot · Flask · Django <br><br>
+
+  <!-- Programming Languages -->
+  <img src="https://skillicons.dev/icons?i=java,py" height="40" alt="Languages" /><br>
+  <b>Languages:</b> Java · Python <br><br>
+
+  <!-- Databases -->
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres" height="40" alt="Databases" /><br>
+  <b>Databases:</b> MySQL · MongoDB · PostgreSQL <br><br>
+
+  <!-- Tools & Others -->
+  <img src="https://skillicons.dev/icons?i=jupyter,git,github" height="40" alt="Tools" /><br>
+  <b>Tools:</b> Jupyter Notebook · Git · GitHub
 </p>
+
 
 ---
 
