@@ -24,16 +24,16 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" alt="LinkedIn" />
   </a>
   <a href="https://fb.com/priyanshu.singh" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" height="40" alt="Facebook" />
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" height="40" alt="Facebook" style="filter: invert(0.5);" />
   </a>
   <a href="https://instagram.com/rajput.priyanshu___" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" height="40" alt="Instagram" />
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" height="40" alt="Instagram" style="filter: invert(0.5);" />
   </a>
   <a href="https://www.hackerrank.com/priyanshukuma120" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hackerrank.svg" height="40" alt="HackerRank" />
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/hackerrank.svg" height="40" alt="HackerRank" style="filter: invert(0.5);" />
   </a>
   <a href="https://leetcode.com/u/PriyAnshu1265/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/leetcode.svg" height="40" alt="LeetCode" />
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/leetcode.svg" height="40" alt="LeetCode" style="filter: invert(0.5);" />
   </a>
 </p>
 
