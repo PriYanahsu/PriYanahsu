@@ -1,94 +1,79 @@
-![Navy Blue Geometric Technology LinkedIn Banner](https://github.com/user-attachments/assets/1025e167-bfaf-437a-a7bd-30cdc0302160)
+![Banner](https://github.com/user-attachments/assets/1025e167-bfaf-437a-a7bd-30cdc0302160)
 
-<h1 align="center">Hi 👋, I'm Priyanshu Kumar</h1>
-<h3 align="center">A Passionate Developer from India 🔭</h3>
+<h1 align="center">Hey 👋, I'm Priyanshu Kumar</h1>
+<h3 align="center">🚀 Passionate Full Stack Developer | Java Backend Enthusiast | Lifelong Learner from India 🇮🇳</h3>
 
-<img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70000&center=true&vCenter=true&multiline=true&width=700&height=70&lines=Java+%7C+Spring+Boot+%7C+React+%7C+Python+%7C+MERN+Stack+Dev;Problem+Solver+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB+%7C+Open+Source+Lover" alt="Typing SVG" />
+</p>
 
-- 💬 Ask me about **Web Development, Backend Engineering, and Python!**  
-- 📫 Reach me at **priyanhu1265656@gmail.com**  
-- ⚡ Fun fact: **I code better than I joke 🤓**
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" />
+
+- 🔭 Currently building: **Real-Time Smart Complaint Management System using React + Spring Boot**
+- 🌱 Learning: **Spring Security, JWT Auth, Microservices**
+- 💬 Ask me about: **Full Stack Development, Java, Python, Spring Boot, React**
+- 📫 Email: **priyanhu1265656@gmail.com**
+- ⚡ Fun fact: **My commits are cleaner than my room 😄**
 
 ---
 
-<h3 align="center" style="font-family: Arial, sans-serif; color: #333;">Connect with me:</h3>
+### 🤝 Connect with Me:
 <p align="center">
-  <a href="https://www.linkedin.com/in/priyanshukumar1265/" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="priyanshukumar1265" height="30" width="40" />
+  <a href="https://www.linkedin.com/in/priyanshukumar1265/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" />
   </a>
-  <a href="https://fb.com/priyanshu.singh" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="priyanshu singh" height="30" width="40" />
+  <a href="https://fb.com/priyanshu.singh" target="_blank">
+    <img src="https://skillicons.dev/icons?i=facebook" height="40" alt="Facebook" />
   </a>
-  <a href="https://instagram.com/rajput.priyanshu___" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajput.priyanshu___" height="30" width="40" />
+  <a href="https://instagram.com/rajput.priyanshu___" target="_blank">
+    <img src="https://skillicons.dev/icons?i=instagram" height="40" alt="Instagram" />
   </a>
-  <a href="https://www.hackerrank.com/priyanshukuma120" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="priyanshukuma120" height="30" width="40" />
+  <a href="https://www.hackerrank.com/priyanshukuma120" target="_blank">
+    <img src="https://skillicons.dev/icons?i=hackerrank" height="40" alt="HackerRank" />
   </a>
-  <a href="https://leetcode.com/u/eROhMGLYrx/" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="u/eROhMGLYrx" height="30" width="40" />
+  <a href="https://leetcode.com/u/eROhMGLYrx/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=leetcode" height="40" alt="LeetCode" />
   </a>
 </p>
 
-
 ---
 
-### 🚀 Languages and Tools:
-<p align="left"> 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/> 
-  </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.cplusplus.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/> 
-  </a> 
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/> 
-  </a>
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg" alt="Flask" width="40" height="40" style="background-color: white;"/> 
-  </a>
-  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="40" height="40"/> 
-  </a> 
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg" alt="Pandas" width="40" height="40"/> 
-  </a> 
-  <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" alt="Jupyter Notebook" width="40" height="40"/> 
-  </a> 
-</p> 
-
-
----
-
-### 📊 GitHub Stats:
+### 🧠 Languages & Tools I Use:
 <p align="center">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=radical" alt="PriYanahsu" />
-  <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&locale=en&theme=radical" alt="PriYanahsu" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,java,spring,py,cpp,mysql,mongodb,flask,django,jupyter,git,github" />
 </p>
 
+---
+
+### 💻 Tech Stack in Action:
+- 💡 **Frontend**: HTML | CSS | JavaScript | React.js | Tailwind
+- 🖥️ **Backend**: Java | Spring Boot | Python | Flask | Django
+- 🗃️ **Database**: MySQL | MongoDB
+- 🧪 **Tools**: Postman | Git | GitHub | Jupyter Notebook | VSCode | IntelliJ
+
+---
+
+### 📈 GitHub Activity:
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PriYanahsu&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
+</p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=PriYanahsu&theme=radical" alt="GitHub Streak" />
 </p>
 
+---
 
-### 📝 Quote of the Day:
-> "Code is like humor. When you have to explain it, it’s bad." – Cory House
+### 🧩 Quote of the Day:
+> "Code is like humor. When you have to explain it, it’s bad." – *Cory House*
+
+---
+
+> 🧑‍💻 *“Fueled by curiosity, driven by code.”*  
+> ⭐ *Drop a ⭐ on my repositories if you like my work!*
+
+---
+
+Would you like me to export this as a downloadable `README.md` file too? Or help you integrate dynamic widgets like visitor count, GitHub calendar, or a contribution snake animation?
