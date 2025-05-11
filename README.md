@@ -75,6 +75,3 @@
 > 🧑‍💻 *“Fueled by curiosity, driven by code.”*  
 > ⭐ *Drop a ⭐ on my repositories if you like my work!*
 
----
-
-Would you like me to export this as a downloadable `README.md` file too? Or help you integrate dynamic widgets like visitor count, GitHub calendar, or a contribution snake animation?
