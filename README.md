@@ -10,7 +10,7 @@
 
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" />
 
-- 🔭 Currently building: **Real-Time Smart Complaint Management System using React + Spring Boot**
+- 🔭 Currently building: **SkillLinK-Online local job plateform using React + Spring Boot**
 - 🌱 Learning: **Spring Security, JWT Auth, Microservices**
 - 💬 Ask me about: **Full Stack Development, Java, Python, Spring Boot, React**
 - 📫 Email: **priyanhu1265656@gmail.com**
