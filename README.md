@@ -1,5 +1,5 @@
 
-![ChatGPT Image May 24, 2025, 05_17_54 PM](https://github.com/user-attachments/assets/7579943f-d3e9-49f9-9132-695817e627bb)
+![ChatGPT Image May 24, 2025, 05_25_40 PM](https://github.com/user-attachments/assets/1554e7d8-eac1-4032-9d0f-0d3ca4bc919d)
 
 <h1 align="center">Hey 👋, I'm Priyanshu Kumar</h1>
 <h3 align="center">🚀 Passionate Full Stack Developer | Java Backend Enthusiast | Lifelong Learner from India 🇮🇳</h3>
