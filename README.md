@@ -2,7 +2,7 @@
 ![ChatGPT Image May 24, 2025, 05_25_40 PM](https://github.com/user-attachments/assets/1554e7d8-eac1-4032-9d0f-0d3ca4bc919d)
 
 <h1 align="center">Hey 👋, I'm Priyanshu Kumar</h1>
-<h3 align="center">🚀 Passionate Full Stack Developer | Java Backend Enthusiast | Lifelong Learner from India 🇮🇳</h3>
+<h3 align="center">🚀 Passionate Full Stack Developer | Java Backend Enthusiast | Lifelong Learner from India 🇮🇳 yes</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=white&center=true&vCenter=true&multiline=true&width=700&height=70&lines=Java+%7C+Spring+Boot+%7C+React+%7C+Microservices+%7C+AWS;Problem+Solver+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB+%7C+Tech+Writer+%7C+Clean+Code+Advocate" alt="Typing SVG" />
