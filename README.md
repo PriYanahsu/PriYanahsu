@@ -12,7 +12,7 @@
 
 - 🔭 Currently building: **SkillLinK-Online local job plateform using React + Spring Boot**
 - 🌱 Learning: **Spring Security, JWT Auth, Microservices**
-- 💬 Ask me about: **Full Stack Development, Java, Python, Spring Boot, React**
+- 💬 Ask me about: **Full Stack Development, Java, Python, FASTAPI, Spring Boot, React**
 - 📫 Email: **priyanhu1265656@gmail.com**
 - ⚡ Fun fact: **My commits are cleaner than my room 😄**
 
