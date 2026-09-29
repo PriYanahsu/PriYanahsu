@@ -75,8 +75,8 @@ I'm a **Full Stack Engineer at Cognivac**. I build production web apps end to en
 ## GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=PriYanahsu&show_icons=true&count_private=true&hide_border=true&bg_color=0f1a2e&title_color=9cc3f0&text_color=e8eef6&icon_color=9cc3f0&border_radius=10" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PriYanahsu&layout=compact&hide_border=true&bg_color=0f1a2e&title_color=9cc3f0&text_color=e8eef6&border_radius=10" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PriYanahsu&theme=github_dark" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PriYanahsu&theme=github_dark" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=PriYanahsu&hide_border=true&background=0f1a2e&ring=9cc3f0&fire=9cc3f0&currStreakLabel=9cc3f0&sideLabels=e8eef6&currStreakNum=e8eef6&sideNums=e8eef6&dates=a9b6c9&stroke=2d3e5c&border_radius=10" />
