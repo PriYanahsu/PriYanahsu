@@ -34,6 +34,8 @@ also:     450+ DSA problems · 5★ HackerRank (Java, SQL) · 1st place, CODE RU
       <p>Snap a meal photo to get a per-ingredient calorie and macro breakdown. Gemini returns a strict JSON schema, and the API re-checks the 4/4/9 macro math and rejects low-confidence reads. Targets come from a deterministic BMR/TDEE engine; the LLM only explains them.</p>
       <p><code>Next.js</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>Flyway</code> <code>Gemini</code> <code>Supabase</code> <code>Docker</code></p>
       <a href="https://foodcal-fn-three.vercel.app"><b>▸ live demo</b></a>
+      <a href="https://github.com/PriYanahsu/foodcal_fn"><b>▸ Frontend Code</b></a>
+      <a href="https://github.com/PriYanahsu/foodcal_bn"><b>▸ Backend Code</b></a>
     </td>
     <td width="50%" valign="top">
       <h3><code>02</code> HireCheck · Online Assessments</h3>
@@ -56,7 +58,8 @@ also:     450+ DSA problems · 5★ HackerRank (Java, SQL) · 1st place, CODE RU
       <h3><code>04</code> ML Disease Prediction</h3>
       <p>Machine-learning system that predicts likely diseases from symptoms and recommends drugs.</p>
       <p><code>Python</code> <code>scikit-learn</code> <code>ML</code></p>
-      <a href="https://github.com/PriYanahsu/Disease-Prediction-with-Drug-Recommendation-Using-ML"><b>▸ code</b></a>
+      <a href="https://disease-prediction-with-drugs-recom.vercel.app/"><b>▸ Live</b></a>
+      . <a href="https://github.com/PriYanahsu/Disease-Prediction-with-Drug-Recommendation-Using-ML"><b>▸ code</b></a>
     </td>
   </tr>
 </table>
