@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-label="Priyanshu Kumar, Full Stack Engineer. Production apps, end to end.">
+<title>Priyanshu Kumar · Full Stack Engineer</title>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#30363d" stroke-width=".6" opacity=".45"/></pattern>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".18"/></pattern>
+<radialGradient id="glow" cx="80%" cy="50%" r="45%"><stop offset="0" stop-color="#3fb950" stop-opacity=".09"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></radialGradient>
+<linearGradient id="fadeL" x1="0" x2="1"><stop offset="0" stop-color="#0d1117"/><stop offset=".55" stop-color="#0d1117" stop-opacity=".6"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient>
+<filter id="soft" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2.5"/></filter>
+<clipPath id="card"><rect width="1000" height="330" rx="12"/></clipPath>
+</defs>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace} .sans{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.in{animation:in .7s cubic-bezier(.2,.8,.2,1) both}
+.typed{animation:typed 1.1s steps(11,end) .7s both}
+.caret{animation:blink 1s steps(1) infinite}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}
+.dash{animation:flow 1.6s linear infinite}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes typed{from{clip-path:inset(-20% 100% -20% 0)}to{clip-path:inset(-20% 0 -20% 0)}}
+@keyframes blink{50%{fill-opacity:0}}
+@keyframes pulse{50%{opacity:.35}}
+@keyframes ring{from{opacity:.7;transform:scale(1)}to{opacity:0;transform:scale(2.6)}}
+@keyframes flow{to{stroke-dashoffset:-14}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#card)"><rect width="1000" height="330" fill="#0d1117"/><rect width="1000" height="330" fill="url(#grid)"/>
+<circle cx="830" cy="165" r="138.0" fill="url(#glow)"/>
+<line x1="830" y1="65.64" x2="730.64" y2="165" stroke="#79c0ff" stroke-opacity="0.5" stroke-width="1.3"/>
+<text class="mono" x="765.6" y="108.0" font-size="9.2" fill="#7d8590" text-anchor="end">REST</text>
+<line x1="730.64" y1="165" x2="929.36" y2="165" stroke="#79c0ff" stroke-opacity="0.5" stroke-width="1.3" stroke-dasharray="6 8" class="dash"/>
+<line x1="730.64" y1="165" x2="830" y2="264.36" stroke="#79c0ff" stroke-opacity="0.5" stroke-width="1.3"/>
+<text class="mono" x="765.6" y="229.4" font-size="9.2" fill="#7d8590" text-anchor="end">LLM</text>
+<line x1="830" y1="65.64" x2="929.36" y2="165" stroke="#30363d" stroke-opacity="0.9" stroke-width="1.3"/>
+<line x1="929.36" y1="165" x2="830" y2="264.36" stroke="#30363d" stroke-opacity="0.9" stroke-width="1.3"/>
+<text class="mono" x="830" y="155.8" font-size="9.2" fill="#7d8590" text-anchor="middle">SQL</text>
+<circle r="6.4" fill="#3fb950" filter="url(#soft)" opacity=".8"><animateMotion dur="5.2s" begin="0.00s" repeatCount="indefinite" path="M830,65.64 L730.64,165 L929.36,165 L730.64,165 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle r="2.9" fill="#3fb950"><animateMotion dur="5.2s" begin="0.00s" repeatCount="indefinite" path="M830,65.64 L730.64,165 L929.36,165 L730.64,165 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle r="6.4" fill="#3fb950" filter="url(#soft)" opacity=".8"><animateMotion dur="5.2s" begin="-1.73s" repeatCount="indefinite" path="M830,65.64 L730.64,165 L929.36,165 L730.64,165 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle r="2.9" fill="#3fb950"><animateMotion dur="5.2s" begin="-1.73s" repeatCount="indefinite" path="M830,65.64 L730.64,165 L929.36,165 L730.64,165 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle r="6.4" fill="#3fb950" filter="url(#soft)" opacity=".8"><animateMotion dur="5.2s" begin="-3.47s" repeatCount="indefinite" path="M830,65.64 L730.64,165 L929.36,165 L730.64,165 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle r="2.9" fill="#3fb950"><animateMotion dur="5.2s" begin="-3.47s" repeatCount="indefinite" path="M830,65.64 L730.64,165 L929.36,165 L730.64,165 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle r="6.4" fill="#79c0ff" filter="url(#soft)" opacity=".8"><animateMotion dur="3.4s" begin="0.00s" repeatCount="indefinite" path="M730.64,165 L830,264.36 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle r="2.9" fill="#79c0ff"><animateMotion dur="3.4s" begin="0.00s" repeatCount="indefinite" path="M730.64,165 L830,264.36 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle r="6.4" fill="#79c0ff" filter="url(#soft)" opacity=".8"><animateMotion dur="3.4s" begin="-1.70s" repeatCount="indefinite" path="M730.64,165 L830,264.36 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle r="2.9" fill="#79c0ff"><animateMotion dur="3.4s" begin="-1.70s" repeatCount="indefinite" path="M730.64,165 L830,264.36 Z" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .55 1"/></circle>
+<circle class="ring" cx="830" cy="165" r="6.44" fill="none" stroke="#3fb950" stroke-width="1.5"/>
+<circle cx="830" cy="165" r="6.44" fill="#3fb950"/>
+<rect x="801.5" y="47.2" width="57.0" height="36.8" rx="8.3" fill="#161b22" stroke="#79c0ff" stroke-opacity=".75" stroke-width="1.5"/>
+<text class="mono" x="830" y="70.2" font-size="12.9" font-weight="700" fill="#e6edf3" text-anchor="middle">UI</text>
+<rect x="702.1" y="146.6" width="57.0" height="36.8" rx="8.3" fill="#161b22" stroke="#79c0ff" stroke-opacity=".75" stroke-width="1.5"/>
+<text class="mono" x="730.64" y="169.6" font-size="12.9" font-weight="700" fill="#e6edf3" text-anchor="middle">API</text>
+<rect x="900.8" y="146.6" width="57.0" height="36.8" rx="8.3" fill="#161b22" stroke="#79c0ff" stroke-opacity=".75" stroke-width="1.5"/>
+<text class="mono" x="929.36" y="169.6" font-size="12.9" font-weight="700" fill="#e6edf3" text-anchor="middle">DB</text>
+<rect x="801.5" y="246.0" width="57.0" height="36.8" rx="8.3" fill="#161b22" stroke="#79c0ff" stroke-opacity=".75" stroke-width="1.5"/>
+<text class="mono" x="830" y="269.0" font-size="12.9" font-weight="700" fill="#e6edf3" text-anchor="middle">AI</text>
+<rect width="640" height="330" fill="url(#fadeL)"/>
+<g class="in"><text class="mono" x="48" y="66" font-size="13" fill="#3fb950" letter-spacing="3"><tspan fill="#7d8590">~/</tspan>PRIYANSHU KUMAR <tspan fill="#7d8590">·</tspan> FULL STACK ENGINEER</text></g>
+<g class="in" style="animation-delay:150ms"><text class="sans" x="46" y="136" font-size="58" font-weight="800" fill="#e6edf3" letter-spacing="-1.5">Production apps,</text></g>
+<text class="sans typed" x="46" y="200" font-size="58" font-weight="800" fill="#3fb950" letter-spacing="-1.5">end to end<tspan class="caret" fill="#3fb950">_</tspan></text>
+<g class="in" style="animation-delay:900ms"><text class="sans" x="48" y="244" font-size="18" fill="#7d8590"><tspan fill="#e6edf3" font-weight="600">Spring Boot</tspan> APIs  ·  <tspan fill="#e6edf3" font-weight="600">Next.js</tspan> frontends  ·  <tspan fill="#e6edf3" font-weight="600">LLM</tspan> features that ship</text></g>
+<g class="in" style="animation-delay:1100ms"><rect x="48.0" y="272" width="53.6" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text class="mono" x="74.8" y="289" font-size="12" fill="#e6edf3" text-anchor="middle">java</text></g>
+<g class="in" style="animation-delay:1160ms"><rect x="109.6" y="272" width="105.4" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text class="mono" x="162.3" y="289" font-size="12" fill="#e6edf3" text-anchor="middle">spring-boot</text></g>
+<g class="in" style="animation-delay:1220ms"><rect x="223.0" y="272" width="75.8" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text class="mono" x="260.9" y="289" font-size="12" fill="#e6edf3" text-anchor="middle">fastapi</text></g>
+<g class="in" style="animation-delay:1280ms"><rect x="306.8" y="272" width="61.0" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text class="mono" x="337.3" y="289" font-size="12" fill="#e6edf3" text-anchor="middle">react</text></g>
+<g class="in" style="animation-delay:1340ms"><rect x="375.8" y="272" width="75.8" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text class="mono" x="413.7" y="289" font-size="12" fill="#e6edf3" text-anchor="middle">next.js</text></g>
+<g class="in" style="animation-delay:1400ms"><rect x="459.6" y="272" width="98.0" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text class="mono" x="508.6" y="289" font-size="12" fill="#e6edf3" text-anchor="middle">postgresql</text></g>
+<g class="in" style="animation-delay:1460ms"><rect x="565.6" y="272" width="68.4" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text class="mono" x="599.8" y="289" font-size="12" fill="#e6edf3" text-anchor="middle">docker</text></g>
+<g class="in" style="animation-delay:1520ms"><rect x="642.0" y="272" width="46.2" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text class="mono" x="665.1" y="289" font-size="12" fill="#e6edf3" text-anchor="middle">aws</text></g>
+<rect width="1000" height="330" fill="url(#scan)"/></g>
+<rect x=".5" y=".5" width="999" height="329" rx="12" fill="none" stroke="#30363d"/>
+</svg>
