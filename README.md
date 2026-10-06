@@ -10,6 +10,10 @@
   <a href="https://leetcode.com/u/PriyAnshu1265/"><img src="https://img.shields.io/badge/LeetCode-450%2B_solved-1c2b47?style=flat-square&logo=leetcode&logoColor=white" /></a>
 </p>
 
+<p align="center">
+  <img src="./assets/dashboard.svg" alt="Terminal-style dashboard: dotted portrait, contribution heatmap and GitHub stats, refreshed daily" width="100%" />
+</p>
+
 ## About me
 
 I'm a **Full Stack Engineer at Cognivac**. I build production web apps end to end, from the PostgreSQL schema and REST APIs to the deployed UI.
@@ -72,16 +76,6 @@ I'm a **Full Stack Engineer at Cognivac**. I build production web apps end to en
 | **Data** | PostgreSQL, Flyway, MySQL, Redis, Supabase, pgvector |
 | **DevOps & testing** | Docker, GitHub Actions, AWS (EC2, RDS), Vercel, Render, JUnit 5, Mockito, Jest, Playwright |
 | **AI** | Gemini and OpenAI APIs, structured outputs, RAG, prompt-injection guarding |
-
-## GitHub stats
-
-<p align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PriYanahsu&theme=github_dark" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PriYanahsu&theme=github_dark" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=PriYanahsu&hide_border=true&background=0f1a2e&ring=9cc3f0&fire=9cc3f0&currStreakLabel=9cc3f0&sideLabels=e8eef6&currStreakNum=e8eef6&sideNums=e8eef6&dates=a9b6c9&stroke=2d3e5c&border_radius=10" />
-</p>
 
 ---
 
