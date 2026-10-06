@@ -39,7 +39,7 @@ also:     450+ DSA problems · 5★ HackerRank (Java, SQL) · 1st place, CODE RU
       <h3><code>02</code> HireCheck · Online Assessments</h3>
       <p>Recruiters create timed tests, invite candidates by link, and review auto-evaluated scores and analytics. JWT auth and role-based access protect both the exam flow and admin operations.</p>
       <p><code>React</code> <code>TypeScript</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>JWT</code> <code>Docker</code></p>
-      <a href="https://hirecheck-beryl.vercel.app"><b>▸ live demo</b></a> · <a href="https://github.com/PriYanahsu/HireCheck-Full-Stack-"><b>▸ code</b></a>
+      <a href="https://hirecheck-beryl.vercel.app"><b>▸ live demo</b></a> · <a href="https://github.com/PriYanahsu/HireCheck-backend"><b>▸ Backend Code</b></a>
     </td>
   </tr>
   <tr>
