@@ -183,9 +183,10 @@ def render(u):
         for d in w["contributionDays"]:
             wd = (dt.date.fromisoformat(d["date"]).weekday() + 1) % 7  # Sunday = 0
             lv = level(d["contributionCount"])
-            a(f'<rect class="hm" style="animation-delay:{wi*14}ms" x="{hx + wi*step:.1f}" y="{hy + wd*step:.1f}" '
+            t = tip(d["contributionCount"], dt.date.fromisoformat(d["date"]).strftime("%a, %d %b %Y"))
+            a(f'<rect class="hm" data-tip="{t}" style="animation-delay:{wi*14}ms" x="{hx + wi*step:.1f}" y="{hy + wd*step:.1f}" '
               f'width="{cell}" height="{cell}" rx="2.5" fill="{LEVELS[lv]}"{edge if not lv else ""}>'
-              f'<title>{tip(d["contributionCount"], dt.date.fromisoformat(d["date"]).strftime("%a, %d %b %Y"))}</title></rect>')
+              f'<title>{t}</title></rect>')
     # today marker
     last = days[-1]
     lwd = (dt.date.fromisoformat(last["date"]).weekday() + 1) % 7
@@ -248,7 +249,7 @@ def render(u):
         d1 = dt.date.fromisoformat(w["contributionDays"][-1]["date"])
         span = f'week of {d0:%d %b} – {d1:%d %b %Y}' + (" (this week)" if i == len(wk) - 1 else "")
         # full-height hit area so the tooltip works even on short bars
-        a(f'<g class="wk"><title>{tip(v, span)}</title>'
+        a(f'<g class="wk" data-tip="{tip(v, span)}"><title>{tip(v, span)}</title>'
           f'<rect x="{area_x + i*bw:.1f}" y="{base - area_h - 14:.1f}" width="{bw:.1f}" height="{area_h + 14:.1f}" fill="transparent"/>'
           f'<rect class="bar" style="animation-delay:{300 + i*25}ms" x="{area_x + i*bw + 2:.1f}" y="{base - hgt:.1f}" '
           f'width="{bw - 4:.1f}" height="{hgt:.1f}" rx="2" fill="{col}"/></g>')
@@ -312,6 +313,7 @@ text{{font-family:{MONO}}}
 .pulse{{animation:pulse 2s ease-in-out infinite}}
 .hm:hover{{stroke:{TEXT};stroke-width:1.5;stroke-opacity:1}}
 .wk:hover .bar{{fill:{LEVELS[4]}}}
+[data-tip]{{cursor:pointer}}
 @keyframes pop{{from{{opacity:0}}to{{opacity:1}}}}
 @keyframes grow{{from{{transform:scaleY(0)}}to{{transform:scaleY(1)}}}}
 @keyframes growx{{from{{transform:scaleX(0)}}to{{transform:scaleX(1)}}}}
@@ -333,14 +335,36 @@ PAGE = os.path.join(ROOT, "docs", "index.html")
 
 
 def page(svg):
-    # README images can't show hover tooltips; inline SVG on GitHub Pages can
+    # README images can't show hover tooltips; inline SVG on GitHub Pages can.
+    # The native <title> tooltip is slow and absent on touch, so show our own.
+    css = (f'html,body{{margin:0;background:{BG}}}main{{max-width:{W}px;margin:24px auto;padding:0 16px}}'
+           f'svg{{width:100%;height:auto;display:block}}'
+           f'#tip{{position:fixed;pointer-events:none;z-index:9;padding:6px 9px;border-radius:6px;'
+           f'background:{TEXT};color:{BG};font:12px/1.3 {MONO};white-space:nowrap;'
+           f'transform:translate(-50%,calc(-100% - 10px));opacity:0;transition:opacity .08s}}'
+           f'#tip b{{font-weight:700}}')
+    js = """
+const tip = document.getElementById('tip');
+function show(el) {
+  const r = (el.querySelector('.bar') || el).getBoundingClientRect(), t = el.dataset.tip, i = t.indexOf(' on ');
+  tip.innerHTML = '';
+  const b = document.createElement('b'); b.textContent = t.slice(0, i);
+  tip.append(b, t.slice(i));
+  tip.style.left = Math.min(Math.max(r.left + r.width / 2, 120), innerWidth - 120) + 'px';
+  tip.style.top = r.top + 'px';
+  tip.style.opacity = 1;
+}
+document.querySelectorAll('[data-tip] > title').forEach(t => t.remove());
+document.addEventListener('pointerover', e => {
+  const el = e.target.closest('[data-tip]');
+  el ? show(el) : (tip.style.opacity = 0);
+});
+addEventListener('scroll', () => (tip.style.opacity = 0), {passive: true});
+"""
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{NAME} · GitHub dashboard</title>'
-            f'<style>html,body{{margin:0;background:{BG}}}main{{max-width:{W}px;margin:24px auto;padding:0 16px}}'
-            f'svg{{width:100%;height:auto;display:block}}</style></head>'
-            f'<body><main>{svg}</main></body></html>\n')
-
+            f'<title>{NAME} · GitHub dashboard</title><style>{css}</style></head>'
+            f'<body><main>{svg}</main><div id="tip" role="tooltip"></div><script>{js}</script></body></html>\n')
 
 if __name__ == "__main__":
     svg = render(fetch())
