@@ -90,6 +90,10 @@ def prompt(x, y, cmd, size=13):
             f'<tspan fill="{MUTED}"> ~ $ </tspan><tspan fill="{TEXT}">{escape(cmd)}</tspan></text>')
 
 
+def tip(n, when):
+    return f'{n or "No"} contribution{"" if n == 1 else "s"} on {when}'
+
+
 def render(u):
     now = dt.datetime.now(IST)
     cal = u["contributionsCollection"]["contributionCalendar"]
@@ -181,7 +185,7 @@ def render(u):
             lv = level(d["contributionCount"])
             a(f'<rect class="hm" style="animation-delay:{wi*14}ms" x="{hx + wi*step:.1f}" y="{hy + wd*step:.1f}" '
               f'width="{cell}" height="{cell}" rx="2.5" fill="{LEVELS[lv]}"{edge if not lv else ""}>'
-              f'<title>{d["contributionCount"]} on {d["date"]}</title></rect>')
+              f'<title>{tip(d["contributionCount"], dt.date.fromisoformat(d["date"]).strftime("%a, %d %b %Y"))}</title></rect>')
     # today marker
     last = days[-1]
     lwd = (dt.date.fromisoformat(last["date"]).weekday() + 1) % 7
@@ -219,15 +223,16 @@ def render(u):
         a(f'<text x="{x+14:.1f}" y="{ty+69}" font-size="10" fill="{MUTED}">{escape(sub)}</text>')
 
     # ---------- weekly bars ----------
-    by, bh = ty + th + gap, 156
+    by, bh = ty + th + gap, 176
     bw_panel = 600
     a(f'<rect x="24" y="{by}" width="{bw_panel}" height="{bh}" rx="8" fill="{PANEL}" stroke="{BORDER}"/>')
     a(f'<text x="38" y="{by+22}" font-size="11" fill="{MUTED}">› contributions / week · last 26 weeks</text>')
-    wk = [sum(d["contributionCount"] for d in w["contributionDays"]) for w in weeks[-26:]]
+    last26 = weeks[-26:]
+    wk = [sum(d["contributionCount"] for d in w["contributionDays"]) for w in last26]
     peak = max(wk) or 1
     avg = sum(wk) / len(wk)
     a(f'<text x="{24+bw_panel-14}" y="{by+22}" font-size="11" fill="{MUTED}" text-anchor="end">peak <tspan fill="{TEXT}">{peak}</tspan> · avg <tspan fill="{TEXT}">{avg:.0f}</tspan></text>')
-    area_x, area_w, base, area_h = 38, bw_panel - 28, by + bh - 16, bh - 52
+    area_x, area_w, base, area_h = 38, bw_panel - 28, by + bh - 26, bh - 70
     bw = area_w / len(wk)
     for g in (0.5, 1.0):
         gy = base - g * area_h
@@ -235,11 +240,24 @@ def render(u):
     ay = base - avg / peak * area_h
     a(f'<line x1="{area_x}" y1="{ay:.1f}" x2="{area_x+area_w}" y2="{ay:.1f}" stroke="{BLUE}" stroke-dasharray="4 3" opacity=".55"/>')
     a(f'<line x1="{area_x}" y1="{base+0.5}" x2="{area_x+area_w}" y2="{base+0.5}" stroke="{BORDER}"/>')
-    for i, v in enumerate(wk):
+    for i, (v, w) in enumerate(zip(wk, last26)):
         hgt = max(2, v / peak * area_h)
+        cx = area_x + i * bw + bw / 2
         col = LEVELS[4] if i == len(wk) - 1 else LEVELS[3] if v >= peak * 0.6 else LEVELS[2]
-        a(f'<rect class="bar" style="animation-delay:{300 + i*25}ms" x="{area_x + i*bw + 2:.1f}" y="{base - hgt:.1f}" '
-          f'width="{bw - 4:.1f}" height="{hgt:.1f}" rx="2" fill="{col}"><title>{v} contributions</title></rect>')
+        d0 = dt.date.fromisoformat(w["contributionDays"][0]["date"])
+        d1 = dt.date.fromisoformat(w["contributionDays"][-1]["date"])
+        span = f'week of {d0:%d %b} – {d1:%d %b %Y}' + (" (this week)" if i == len(wk) - 1 else "")
+        # full-height hit area so the tooltip works even on short bars
+        a(f'<g class="wk"><title>{tip(v, span)}</title>'
+          f'<rect x="{area_x + i*bw:.1f}" y="{base - area_h - 14:.1f}" width="{bw:.1f}" height="{area_h + 14:.1f}" fill="transparent"/>'
+          f'<rect class="bar" style="animation-delay:{300 + i*25}ms" x="{area_x + i*bw + 2:.1f}" y="{base - hgt:.1f}" '
+          f'width="{bw - 4:.1f}" height="{hgt:.1f}" rx="2" fill="{col}"/></g>')
+        if v:
+            a(f'<text class="ln" style="animation-delay:{500 + i*25}ms" x="{cx:.1f}" y="{base - hgt - 4:.1f}" font-size="9" '
+              f'fill="{TEXT if i == len(wk) - 1 else MUTED}" text-anchor="middle">{v}</text>')
+        if (i % 4 == 0 and i < len(wk) - 2) or i == len(wk) - 1:
+            lab = "now" if i == len(wk) - 1 else f"{d0:%d %b}"
+            a(f'<text x="{cx:.1f}" y="{base + 15}" font-size="9" fill="{MUTED}" text-anchor="middle">{lab}</text>')
 
     # ---------- languages ----------
     lx0 = 24 + bw_panel + gap
@@ -266,7 +284,7 @@ def render(u):
     fy = by + bh + 34
     a(prompt(24, fy, ""))
     a(f'<rect class="cursor" x="{24 + 7.8*len(HANDLE + "@github ~ $ ")}" y="{fy-12}" width="8" height="15" fill="{TEXT}"/>')
-    a(f'<text x="{W-24}" y="{fy}" font-size="11" fill="{MUTED}" text-anchor="end">updated {now:%d %b %Y} · auto-refreshes every 6h</text>')
+    a(f'<text x="{W-24}" y="{fy}" font-size="11" fill="{MUTED}" text-anchor="end">updated {now:%d %b %Y, %H:%M} IST · auto-refreshes hourly</text>')
     H = int(fy + 22)
 
     defs = f"""<defs>
@@ -292,6 +310,8 @@ text{{font-family:{MONO}}}
 .sweep{{opacity:0;animation:sweep 6s ease-in-out 1s infinite}}
 .cursor{{animation:blink 1.1s steps(1) infinite}}
 .pulse{{animation:pulse 2s ease-in-out infinite}}
+.hm:hover{{stroke:{TEXT};stroke-width:1.5;stroke-opacity:1}}
+.wk:hover .bar{{fill:{LEVELS[4]}}}
 @keyframes pop{{from{{opacity:0}}to{{opacity:1}}}}
 @keyframes grow{{from{{transform:scaleY(0)}}to{{transform:scaleY(1)}}}}
 @keyframes growx{{from{{transform:scaleX(0)}}to{{transform:scaleX(1)}}}}
@@ -309,8 +329,24 @@ text{{font-family:{MONO}}}
             f'<title>{NAME} · GitHub dashboard</title>\n{defs}\n{style}\n{body}\n</svg>\n')
 
 
+PAGE = os.path.join(ROOT, "docs", "index.html")
+
+
+def page(svg):
+    # README images can't show hover tooltips; inline SVG on GitHub Pages can
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
+            f'<meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<title>{NAME} · GitHub dashboard</title>'
+            f'<style>html,body{{margin:0;background:{BG}}}main{{max-width:{W}px;margin:24px auto;padding:0 16px}}'
+            f'svg{{width:100%;height:auto;display:block}}</style></head>'
+            f'<body><main>{svg}</main></body></html>\n')
+
+
 if __name__ == "__main__":
     svg = render(fetch())
     with open(OUT, "w") as f:
         f.write(svg)
-    print(f"wrote {OUT} ({len(svg)/1024:.0f} KB)")
+    os.makedirs(os.path.dirname(PAGE), exist_ok=True)
+    with open(PAGE, "w") as f:
+        f.write(page(svg))
+    print(f"wrote {OUT} ({len(svg)/1024:.0f} KB) and {PAGE}")

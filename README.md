@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/dashboard.svg" alt="Terminal dashboard: fog portrait, neofetch card, contribution heatmap and live GitHub stats" width="100%" />
+  <a href="https://priyanahsu.github.io/PriYanahsu/"><img src="./assets/dashboard.svg" alt="Terminal dashboard: fog portrait, neofetch card, contribution heatmap and live GitHub stats" width="100%" /></a>
 </p>
 
 ## `~/about`
