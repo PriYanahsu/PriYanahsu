@@ -72,7 +72,6 @@ docqfy:          multi-tenant property audit platform · 3 role-based portals
 clinic_booking:  Spring Boot + Next.js · conflict-free self-booking · reminders on 3 channels
                  admin analytics dashboard
 job_tracker:     browser extension + FastAPI backend · auto-captures Upwork jobs · 5-status pipeline
-devvit_games:    4 Reddit word games · 50+ levels · player-made levels · Redis-backed progress
 ```
 
 ## `~/stack`
